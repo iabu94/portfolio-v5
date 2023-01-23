@@ -45,7 +45,7 @@ export default function Home() {
             id="nav-menu"
           >
             <ul className="nav__list grid-cols-3 gap-8 grid">
-              <li className="nav__item">
+              <li className="nav__item" onClick={() => setToggle(false)}>
                 <a
                   href="#home"
                   className="nav__link flex flex-col items-center text-small text-title font-medium hover:text-first"
@@ -54,7 +54,7 @@ export default function Home() {
                   Home
                 </a>
               </li>
-              <li className="nav__item">
+              <li className="nav__item" onClick={() => setToggle(false)}>
                 <a
                   href="#about"
                   className="nav__link flex flex-col items-center text-small text-title font-medium hover:text-first"
@@ -63,7 +63,7 @@ export default function Home() {
                   About
                 </a>
               </li>
-              <li className="nav__item">
+              <li className="nav__item" onClick={() => setToggle(false)}>
                 <a
                   href="#skills"
                   className="nav__link flex flex-col items-center text-small text-title font-medium hover:text-first"
@@ -72,7 +72,7 @@ export default function Home() {
                   Skills
                 </a>
               </li>
-              <li className="nav__item">
+              <li className="nav__item" onClick={() => setToggle(false)}>
                 <a
                   href="#services"
                   className="nav__link flex flex-col items-center text-small text-title font-medium hover:text-first"
@@ -81,7 +81,7 @@ export default function Home() {
                   Services
                 </a>
               </li>
-              <li className="nav__item">
+              <li className="nav__item" onClick={() => setToggle(false)}>
                 <a
                   href="#portfolio"
                   className="nav__link flex flex-col items-center text-small text-title font-medium hover:text-first"
@@ -90,7 +90,7 @@ export default function Home() {
                   Portfolio
                 </a>
               </li>
-              <li className="nav__item">
+              <li className="nav__item" onClick={() => setToggle(false)}>
                 <a
                   href="#contact"
                   className="nav__link flex flex-col items-center text-small text-title font-medium hover:text-first"
